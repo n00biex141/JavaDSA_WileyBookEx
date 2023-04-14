@@ -6,8 +6,10 @@ of each type, and getting the value of each type.
 */
 
 public class ReinforcementP9{
-    Flower flr1 = new Flower("Red Rose", 10.0, 6);
-    Flower flr2 = new Flower("White Rose", 12.0, 8);
+    public static void main(String[] args){
+        Flower flr1 = new Flower("Red Rose", 10.0, 6);
+        Flower flr2 = new Flower("White Rose", 12.0, 8);
+    }
 }
 
 class Flower{
