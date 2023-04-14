@@ -4,5 +4,12 @@ a sentence, for example, transforming the string "Let's try, Mike!" to "Lets try
 */
 
 public class ReinforcementP8{
-    
+    public static void main(String[] args){
+        System.out.print(punCleaner("Let's try, Mike!"));
+    }
+
+    public static String punCleaner(String s){
+        String s1 = s.replaceAll("\\p{P}", "");
+        return s1;
+    }
 }
